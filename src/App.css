@@ -1,0 +1,111 @@
+:root {
+  --dark: #121212;
+  --dark-medium: #3f3f3f;
+  --medium: #717171;
+  --medium-light: #dedede;
+  --light: #ffffff;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 20px;
+  font-family: "Helvetica", serif;
+  margin: 0;
+  background-color: var(--light);
+  color: var(--dark-medium);
+}
+
+.navbar {
+  display: flex;
+  border: 1px solid var(--dark);
+}
+
+.navbar-item {
+  padding: 20px 3%;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  background-color: var(--dark);
+  color: var(--medium-light)
+}
+
+.home-header {
+  display: flex;
+  padding: 50px 5%;
+  width: 100vw;
+}
+
+.home-header h1 {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  text-wrap: nowrap;
+}
+
+/*The following CSS is from https://www.codepel.com/carousel/automatic-image-slider-in-html-css-with-javascript/*/
+
+
+@keyframes fade{
+  from{
+    opacity:0.4;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+#slider{
+  margin:0 auto;
+  width:80%;
+  overflow:hidden;
+}
+
+.slides{
+  overflow:hidden;
+  animation-name:fade;
+  animation-duration:1s;
+  display:none;
+}
+
+img{
+  width:100%;
+  height: auto;
+  aspect-ratio: 9/9;
+  object-fit: cover;
+}
+
+#dot{
+  margin:0 auto;
+  text-align:center;
+}
+.dot{
+  display:inline-block;
+  border-radius:50%;
+  background:#d3d3d3;
+  padding:8px;
+  margin:10px 5px;
+}
+
+.active{
+  background:black;
+}
+
+@media (max-width:567px){
+  #slider{
+    width:100%;
+
+  }
+}
+
+#heading{
+  display:block;
+  text-align:center;
+  font-size:2em;
+  margin:10px 0px;
+}
