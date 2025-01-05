@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Journal() {
+export default function () {
   return (
-    <div>Journal</div>
+    <div></div>
   )
 }
