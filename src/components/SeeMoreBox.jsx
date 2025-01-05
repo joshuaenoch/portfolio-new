@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SeeMoreBox({type}) {
   return (
     <div className="box-container"
       style={{
-        backgroundImage:"url('/dog.jpg')",
+        backgroundImage:"linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 100%), url('/dog.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -12,7 +13,7 @@ export default function SeeMoreBox({type}) {
       }}
     >
       <div className="container-text">Latest {type}</div>
-      <button className="see-more-button">See all {type}s</button>
+      <Link to={type=="Project" ? "projects" : "journal"} className="see-more-button">See all {type}s</Link>
     </div>
   )
 }
