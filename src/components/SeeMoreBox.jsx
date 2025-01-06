@@ -1,11 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import data from '../data.json'
 
 export default function SeeMoreBox({type}) {
   return (
     <div className="box-container"
       style={{
-        backgroundImage:"linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 100%), url('/dog.jpg')",
+        backgroundImage:`linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.6) 100%),
+        ${type == "Project" ? `url(${data.projects[0].image})` : "url('/dog.jpg')"}`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

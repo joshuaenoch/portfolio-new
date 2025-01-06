@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "name": "UW Connect",
+      "image": "/uwconnect.gif",
+      "link": ["Link", "https://481-final-project.vercel.app/"],
+      "technologies": ["React", "JavaScript", "HTML", "CSS", "PostgreSQL", "RESTful API"],
+      "description": ""
+    },
+    {
+      "name": "Minecraft Battle Mod",
+      "image": "/minecraft.gif",
+      "link": ["Github", "https://github.com/joshuaenoch/battle-mod"],
+      "technologies": ["Java", "JSON", "Forge MDK"],
+      "description": ""
+    },
+    {
+      "name": "Trolley",
+      "image": "/trolley.gif",
+      "link": "",
+      "technologies": ["Unity", "C#"],
+      "description": ""
+    },
+    {
+      "name": "Python Fitness App",
+      "image": "/fitness.gif",
+      "link": ["Github", "https://github.com/joshuaenoch/Fitness-tracker"],
+      "technologies": ["Python", "Pandas", "tkinter"],
+      "description": ""
+    },
+    {
+      "name": "News App",
+      "image": "/news.png",
+      "link": ["Github", "https://github.com/joshuaenoch/news-app"],
+      "technologies": ["React", "JavaScript", "HTML", "CSS", "Web API"],
+      "description": ""
+    },
+    {
+      "name": "Trail Magic",
+      "image": "/trail.png",
+      "link": ["Link", "https://trailmagic.netlify.app/"],
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "description": ""
+    },
+    {
+      "name": "Co2 Visualization",
+      "image": "/co2.png",
+      "link": "",
+      "technologies": ["R", "tidyverse", "ggplot2"],
+      "description": ""
+    }
+  ]
+}
