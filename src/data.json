@@ -5,49 +5,49 @@
       "image": "/uwconnect.gif",
       "link": ["Link", "https://481-final-project.vercel.app/"],
       "technologies": ["React", "JavaScript", "HTML", "CSS", "PostgreSQL", "RESTful API"],
-      "description": ""
+      "description": "Like LinkedIn, but only for UW students and alumni. I worked mainly on the frontend but helped with the API and database."
     },
     {
       "name": "Minecraft Battle Mod",
       "image": "/minecraft.gif",
       "link": ["Github", "https://github.com/joshuaenoch/battle-mod"],
       "technologies": ["Java", "JSON", "Forge MDK"],
-      "description": ""
+      "description": "Do you ever get tired of manually selecting the same items with your friends to fight each other with (In Minecraft of course)? This mod gives you six different 'packets' to automatically select sets along with a bunch of other cool weapons and tools."
     },
     {
       "name": "Trolley",
       "image": "/trolley.gif",
       "link": "",
       "technologies": ["Unity", "C#"],
-      "description": ""
+      "description": "A man is out shopping when a zombie apocalapyse happens outside. Your goal is to help him ride his shopping cart to get home without getting eaten!"
     },
     {
       "name": "Python Fitness App",
       "image": "/fitness.gif",
       "link": ["Github", "https://github.com/joshuaenoch/Fitness-tracker"],
       "technologies": ["Python", "Pandas", "tkinter"],
-      "description": ""
+      "description": "This app tracks lets you track your fitness stats and see your activity over time for each customizeable exercise."
     },
     {
       "name": "News App",
       "image": "/news.png",
       "link": ["Github", "https://github.com/joshuaenoch/news-app"],
       "technologies": ["React", "JavaScript", "HTML", "CSS", "Web API"],
-      "description": ""
+      "description": "This website takes advantage of the News API to display real time news. I worked on the API calls and the 'navigation' bar, which really just calls the API with different parameters."
     },
     {
       "name": "Trail Magic",
       "image": "/trail.png",
       "link": ["Link", "https://trailmagic.netlify.app/"],
       "technologies": ["React", "JavaScript", "HTML", "CSS"],
-      "description": ""
+      "description": "My first complete website in React! With the research of my group mates, this website displays cool information about trails around UW Bothell!"
     },
     {
       "name": "Co2 Visualization",
       "image": "/co2.png",
       "link": "",
       "technologies": ["R", "tidyverse", "ggplot2"],
-      "description": ""
+      "description": "An site that displays the rates of co2 emissions in countries grouped by income."
     }
   ]
 }

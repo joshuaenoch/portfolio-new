@@ -139,22 +139,25 @@ body {
   border-radius: 25px;
   margin: 20px;
   padding: 20px 5%;
-  display: flex;
   align-items: center;
-  flex-direction: column;
   gap: 5%;
+  display: block;
 }
 
 .project-image {
   width: 100%;
   border: 1px solid var(--medium-light);
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);}
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
 
 .project-buttons {
   display: flex;
   gap: 5%;
   width: 100%;
   justify-content: center;
+  margin-bottom: 10px;
+  padding: 7px 0 3px 0;
 }
 
 .project-link {
@@ -177,6 +180,21 @@ body {
   font-size: 28px;
   text-align: center;
   overflow-y: hidden;
+}
+
+.project-description {
+  overflow-y: hidden;
+  margin: 0 5%;
+  color: var(--dark-medium);
+  display: block;
+  max-height: none;
+  font-family:Verdana, Tahoma, sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.project-description > * {
+  margin-bottom: 10px;
 }
 
 /* --- FOOTER --- */
