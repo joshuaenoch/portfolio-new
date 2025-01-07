@@ -197,6 +197,53 @@ body {
   margin-bottom: 10px;
 }
 
+/* --- JOURNAL PAGE --- */
+
+/* Basic layout for the journal page */
+.journal {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.sidebar {
+  max-width: 25%;
+  background-color: var(--dark-medium);
+  color: white;
+}
+
+.sidebar div {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.sidebar div:hover {
+  background-color: var(--medium-light);
+  color: var(--medium)
+}
+
+.selected {
+  background-color: var(--medium);
+  color: var(--light)
+}
+
+/* --- POST COMPONENT --- */
+
+.post {
+  padding: 50px 5%;
+}
+
+.title {
+  color: var(--medium);
+  display: inline-block;
+}
+
+.date {
+color: var(--medium-light);
+margin-bottom: 20px;
+}
+
+
 /* --- FOOTER --- */
 
 .footer {

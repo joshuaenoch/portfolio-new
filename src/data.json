@@ -49,5 +49,19 @@
       "technologies": ["R", "tidyverse", "ggplot2"],
       "description": "An site that displays the rates of co2 emissions in countries grouped by income."
     }
+  ],
+  "journal": [
+    {
+      "title": "New Portfolio Site",
+      "date": "1-7-2025",
+      "id": "newsite",
+      "type": "md"
+    },
+    {
+      "title": "Test",
+      "date": "1-8-2025",
+      "id": "newsite",
+      "type": "md"
+    }
   ]
 }

@@ -1,7 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from '../data.json';
 
 export default function Projects() {
+
+  useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   let projects = data.projects;
 
   return (

@@ -3,6 +3,11 @@ import { useRef, useEffect } from 'react';
 import SeeMoreBox from '../components/SeeMoreBox';
 
 export default function Home() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // slideshow code
   const slidesRef = useRef([]);
     //const dotsRef = useRef([]);
@@ -57,7 +62,7 @@ export default function Home() {
         <h1 className="center">See More</h1>
         <div className="see-more">
           <SeeMoreBox type="Project"></SeeMoreBox>
-          <SeeMoreBox type="Blog"></SeeMoreBox>
+          <SeeMoreBox type="Post"></SeeMoreBox>
         </div>
       </div>
     </div>
