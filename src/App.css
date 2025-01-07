@@ -202,7 +202,7 @@ body {
 /* Basic layout for the journal page */
 .journal {
   display: flex;
-  min-height: 100vh;
+  min-height: 83vh;
   position: relative;
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 .sidebar div {
-  padding: 15px;
+  padding: 20px;
   cursor: pointer;
 }
 
@@ -231,6 +231,7 @@ body {
 
 .post {
   padding: 50px 5%;
+  max-width: 80%;
 }
 
 .title {
@@ -241,6 +242,11 @@ body {
 .date {
 color: var(--medium-light);
 margin-bottom: 20px;
+}
+
+.content{
+  color: var(--dark-medium);
+
 }
 
 
