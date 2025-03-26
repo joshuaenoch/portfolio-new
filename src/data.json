@@ -1,6 +1,18 @@
 {
-  "projects": [
+  "projects":[
     {
+      "name": "Fantasy BBall Tool",
+      "image": "/fantasy.gif",
+      "link": ["Github", "https://github.com/joshuaenoch/fantasy-basketball-predictor"],
+      "technologies": ["Python", "pandas", "scikit-learn", "React", "JavaScript", "HTML", "CSS", "Web API"],
+      "description": "A site that connects to your ESPN fantasy league for decision making and shows statistics and predictions from two models."
+    },{
+      "name": "Diabetes Model",
+      "image": "/diabetes.png",
+      "link": ["Github", "https://github.com/joshuaenoch/diabetes-model"],
+      "technologies": ["Python", "pandas", "scikit-learn", "React", "JavaScript", "HTML", "CSS", "Web API"],
+      "description": "A site that connects to your ESPN fantasy league for decision making and shows statistics and predictions from two models."
+    },{
       "name": "UW Connect",
       "image": "/uwconnect.gif",
       "link": ["Link", "https://481-final-project.vercel.app/"],

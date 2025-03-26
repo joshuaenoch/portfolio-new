@@ -62,7 +62,7 @@ export default function Home() {
         <h1 className="center">See More</h1>
         <div className="see-more">
           <SeeMoreBox type="Project"></SeeMoreBox>
-          <SeeMoreBox type="Post"></SeeMoreBox>
+          {/* <SeeMoreBox type="Post"></SeeMoreBox> */}
         </div>
       </div>
     </div>
